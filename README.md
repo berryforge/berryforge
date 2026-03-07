@@ -1,80 +1,70 @@
 # Berry Forge
 
-> **A hands-on journey into data pipelines, warehouses, and analytics foundations.**
+> **A hands-on journey into data pipelines and modern data engineering concepts.**
 
-This is my personal data engineering portfolio, focused on building,
-transforming, and maintaining data systems using real-world tools and patterns.
+This is my personal data engineering portfolio where I document my learning
+journey while building real-world style data pipelines.
 
-I come from a strong SQL and systems background, with hands-on experience
-supporting enterprise healthcare systems and databases. This portfolio
-documents my transition deeper into data engineering through practical,
-well-documented projects.
+I come from a strong SQL and systems background with experience supporting
+enterprise healthcare systems and databases. This GitHub focuses on expanding
+that foundation into data engineering through practical, hands-on projects.
+
+My current focus is learning how modern data pipelines are built, from raw data
+ingestion to structured, analytics-ready datasets.
 
 ---
 
-## 🔧 **Learning Focus: Skills & Tools**
+## 🔧 Learning Focus: Skills & Tools
 
 - **Databases:** SQL Server
-- **Languages:** SQL (T-SQL), Python (ETL-focused)
-- **Data Engineering:** ETL / ELT, data modeling, star schemas
-- **Platforms:** Databricks (foundations), Spark / PySpark
-- **Concepts:** Data pipelines, transformations, data quality, analytics-ready data
-- **Domain Experience:** Healthcare data systems & enterprise environments
+- **Languages:** SQL (T-SQL), Python
+- **Data Engineering:** Data pipelines, ETL / ELT, data transformation
+- **Platforms:** Databricks, Spark / PySpark
+- **Concepts:** Data modeling, data cleaning, analytics-ready data
 
 ---
 
-## 📂 Featured Projects
+## 📂 Current Project
 
-## Future Projects
+### Mythic+ Data Pipeline
+🔗 [Mythic+ Data Pipeline Repo](https://github.com/berryforge/wow-mythic-data-pipeline)
 
-Berry Forge is a learning-focused portfolio. The projects listed below represent
-planned and in-progress work as I continue building my data engineering skills.
+I am currently building a data pipeline using historical Mythic+ dungeon run
+data from the Raider.IO API.
 
-### 🏗 Data Warehouse Project
-Designing and implementing a data warehouse using a star schema.
-This project will focus on:
-- Fact and dimension table design
-- Transforming raw data into analytics-ready structures
-- Writing business-focused analytical queries
+The goal of this project is to learn the end-to-end process of a modern data
+pipeline by working with real API data.
 
-### 🔄 ETL Pipelines
-Building ETL pipelines to ingest, transform, and load data using Python and SQL.
-Planned areas of focus include:
-- Data ingestion from flat files and APIs
-- Transformations and data validation
-- Clear, maintainable pipeline structure
+The pipeline currently focuses on:
 
-### ⚙️ Databricks & Spark Learning
-Hands-on learning with Spark and PySpark using Databricks.
-This project will explore:
-- Distributed data processing concepts
-- Data transformations at scale
-- Understanding how Spark fits into modern data platforms
+- Pulling run data from the Raider.IO API using Python
+- Storing raw API responses as JSON
+- Ingesting the data into Databricks
+- Parsing and transforming nested JSON structures using PySpark
+- Cleaning and standardizing fields such as timestamps and character names
+- Structuring the data into usable datasets for analysis
 
-### 📊 Analytics Foundations
-Exploring how engineered data supports analytics and reporting.
-This project will focus on:
-- Preparing data for analysis
-- Writing analytical queries
-- Understanding downstream analytics needs
+While the topic is based on a game dataset, the purpose of the project is to
+practice the engineering process behind building and maintaining a data
+pipeline.
 
 ---
 
 ## 🌱 Current Focus
 
-My current focus is strengthening my SQL foundations and learning how SQL is
-used in deeper data engineering scenarios. This includes writing more complex
-queries to transform, join, and prepare data for analytics and downstream use.
+My current learning focus is strengthening my SQL skills while expanding into
+Python and PySpark to understand how modern data pipelines are built.
 
-Alongside SQL, I am beginning to incorporate Python and PySpark to understand
-how these tools complement SQL in data pipelines, transformations, and
-large-scale data processing.
+This includes learning how to ingest API data, transform nested datasets,
+structure clean data layers, and prepare datasets that could support analytics
+or dashboards.
 
 ---
 
 ## 📫 Connect
 
-This GitHub represents my technical work.
-Professional details and experience are available on LinkedIn.
-🔗 [LinkedIn](https://www.linkedin.com/in/amandasberry/)
+This GitHub represents my technical work and learning projects.
 
+Professional experience and background are available on LinkedIn.
+
+🔗 [LinkedIn](https://www.linkedin.com/in/amandasberry/)
